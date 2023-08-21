@@ -1,1 +1,1 @@
-# trend-shop
+# 🛒 Trend Shop
