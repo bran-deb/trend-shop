@@ -46,6 +46,7 @@ public class SecurityConfig {
                                 .authorizeHttpRequests(auth -> auth
                                                 .requestMatchers("/login").permitAll()
                                                 .requestMatchers("/signup").permitAll()
+                                                .requestMatchers("/doc/*").permitAll()
                                                 .anyRequest().authenticated());
 
                 http.addFilterBefore(
